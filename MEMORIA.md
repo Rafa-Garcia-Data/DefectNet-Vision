@@ -149,7 +149,7 @@ defectnet-vision/
 - [x] Elegir dataset inicial (DAGM 2007)
 - [x] Crear memoria de seguimiento (`MEMORIA.md`)
 - [x] Inicializar repo Git y conectar con GitHub (`Rafa-Garcia-Data/DefectNet-Vision`)
-- [ ] Crear estructura de carpetas
+- [x] Crear estructura de carpetas y archivos vacíos + `.gitignore`
 
 ### Fase 1 — Preparación del dataset y Data Augmentation avanzado
 - [ ] Descargar DAGM 2007 y organizar en `data/`
@@ -208,6 +208,7 @@ defectnet-vision/
 |---|---|---|---|
 | 1 | 21/08/2026 | Dataset inicial: **DAGM 2007** | 10 clases de textura con más variedad que KolektorSDD; máscaras binarias bien definidas; ideal para demostrar manejo de desequilibrio de píxeles. KolektorSDD/MVTec quedan como extensión futura. |
 | 2 | 21/08/2026 | Idioma del proyecto: español | Documentación interna en español; el README público del portafolio podrá valorarse en inglés más adelante. |
+| 3 | 21/08/2026 | Flujo de trabajo **híbrido**: notebooks para explorar, scripts `src/*.py` para producir | Los notebooks se usan para entender conceptos y validar ideas interactivamente (EDA, augmentations, plots); la lógica validada se migra limpia a módulos Python reutilizables. Motivos: reproducibilidad, diffs limpios en Git, entrenamientos largos en terminal, código profesional ante reclutadores. El "ver progreso" durante entrenamiento lo dan Lightning (barras de progreso) y TensorBoard/W&B (curvas en vivo), no los prints. |
 
 ---
 
@@ -215,4 +216,4 @@ defectnet-vision/
 
 | Fecha | Sesión | Trabajo realizado | Decisiones | Siguiente paso |
 |---|---|---|---|---|
-| 21/08/2026 | 1 | Creación de la memoria del proyecto a partir del documento fuente. Definición de alcance, stack, roadmap y métricas. Inicialización de Git, primer commit y push a GitHub. | Dataset inicial: DAGM 2007. Modo de trabajo colaborativo con explicaciones. Repo: `Rafa-Garcia-Data/DefectNet-Vision`. | Crear estructura de carpetas (pendiente de resolver dudas previas); empezar Fase 1 (descarga DAGM y EDA). |
+| 21/08/2026 | 1 | Creación de la memoria del proyecto a partir del documento fuente. Definición de alcance, stack, roadmap y métricas. Inicialización de Git, primer commit y push a GitHub. Creación de la estructura de carpetas (archivos vacíos) y `.gitignore`. | Dataset inicial: DAGM 2007. Modo de trabajo colaborativo con explicaciones. Repo: `Rafa-Garcia-Data/DefectNet-Vision`. Flujo híbrido notebook→script (decisión #3). | Primer commit de la estructura; empezar Fase 1 (descarga DAGM y EDA en notebook). |

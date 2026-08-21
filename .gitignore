@@ -1,0 +1,22 @@
+# Datos del dataset (se descargan en local, nunca se suben al repo)
+data/
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Entornos virtuales
+venv/
+.venv/
+
+# Experimentos y logs de entrenamiento
+lightning_logs/
+runs/
+wandb/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
