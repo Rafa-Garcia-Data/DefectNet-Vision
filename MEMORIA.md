@@ -8,6 +8,7 @@
 | **Fecha de inicio** | 21/08/2026 |
 | **Última actualización** | 21/08/2026 |
 | **Tipo de proyecto** | Portafolio Data Scientist (GitHub) |
+| **Repositorio** | https://github.com/Rafa-Garcia-Data/DefectNet-Vision |
 | **Fuente original** | [`docs/proyecto_original.md`](docs/proyecto_original.md) |
 
 ---
@@ -147,7 +148,8 @@ defectnet-vision/
 - [x] Definir proyecto, alcance y valor de negocio
 - [x] Elegir dataset inicial (DAGM 2007)
 - [x] Crear memoria de seguimiento (`MEMORIA.md`)
-- [ ] Inicializar repo Git y estructura de carpetas
+- [x] Inicializar repo Git y conectar con GitHub (`Rafa-Garcia-Data/DefectNet-Vision`)
+- [ ] Crear estructura de carpetas
 
 ### Fase 1 — Preparación del dataset y Data Augmentation avanzado
 - [ ] Descargar DAGM 2007 y organizar en `data/`
@@ -213,4 +215,4 @@ defectnet-vision/
 
 | Fecha | Sesión | Trabajo realizado | Decisiones | Siguiente paso |
 |---|---|---|---|---|
-| 21/08/2026 | 1 | Creación de la memoria del proyecto a partir del documento fuente. Definición de alcance, stack, roadmap y métricas. | Dataset inicial: DAGM 2007. Modo de trabajo colaborativo con explicaciones. | Inicializar Git + estructura de carpetas; empezar Fase 1 (descarga DAGM y EDA). |
+| 21/08/2026 | 1 | Creación de la memoria del proyecto a partir del documento fuente. Definición de alcance, stack, roadmap y métricas. Inicialización de Git, primer commit y push a GitHub. | Dataset inicial: DAGM 2007. Modo de trabajo colaborativo con explicaciones. Repo: `Rafa-Garcia-Data/DefectNet-Vision`. | Crear estructura de carpetas (pendiente de resolver dudas previas); empezar Fase 1 (descarga DAGM y EDA). |
